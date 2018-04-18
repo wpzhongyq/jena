@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+xmlns:cd="http://recshop.fake/cd#">
+
+<rdf:Description
+rdf:about="http://recshop.fake/cd/Beatles">
+<cd:artist rdf:parseType="Collection">
+<rdf:Description rdf:about="http://recshop.fake/cd/Beatles/Paul"/>
+<rdf:Description rdf:about="http://recshop.fake/cd/Beatles/Ringo"/>
+</cd:artist>
+<cd:artist1 rdf:parseType="Collection">
+<rdf:Description rdf:about="http://recshop.fake/cd/Beatles/George"/>
+<rdf:Description rdf:about="http://recshop.fake/cd/Beatles/John"/>
+</cd:artist1>
+</rdf:Description>
+
+</rdf:RDF>
