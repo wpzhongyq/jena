@@ -18,6 +18,7 @@ public class jena
         Model model = readXml("/Users/wpzhongyq/IdeaProjects/jena/src/main/java/cn/wpzhongyq/kg/service/container.xml");
 
         Bag smiths = model.createBag("smiths");
+        
         StmtIterator iter = model.listStatements(
                 new SimpleSelector(null, VCARD.FN, (RDFNode) null) {
                     public boolean selects(Statement s) {
